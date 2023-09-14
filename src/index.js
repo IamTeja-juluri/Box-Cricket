@@ -42,7 +42,7 @@ app.get('/connectionCheck', async (req, res) => {
       }
   });
 
-app.listen(ServerConfig.PORT,async ()=>{
+app.listen(3005, async ()=>{
     
     console.log(`Successfully started the server on PORT :${ServerConfig.PORT}`)
   
